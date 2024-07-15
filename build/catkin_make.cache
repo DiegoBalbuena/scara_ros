@@ -1,0 +1,2 @@
+scara_ros
+-DCATKIN_DEVEL_PREFIX=/home/mathias/catkin_scara_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mathias/catkin_scara_ws/install -G Unix Makefiles

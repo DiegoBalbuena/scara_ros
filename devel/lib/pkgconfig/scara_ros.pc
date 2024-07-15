@@ -1,0 +1,8 @@
+prefix=/home/mathias/catkin_scara_ws/devel
+
+Name: scara_ros
+Description: Description of scara_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
