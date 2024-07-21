@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/mathias/catkin_scara_ws/devel/setup.sh
+    local-name: /home/rabios/dev/scara_ros/devel/setup.sh

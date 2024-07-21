@@ -1,8 +1,8 @@
-# Install script for directory: /home/mathias/catkin_scara_ws/src/scara_ros
+# Install script for directory: /home/rabios/dev/scara_ros/src/scara_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mathias/catkin_scara_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/rabios/dev/scara_ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mathias/catkin_scara_ws/build/scara_ros/catkin_generated/installspace/scara_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rabios/dev/scara_ros/build/scara_ros/catkin_generated/installspace/scara_ros.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scara_ros/cmake" TYPE FILE FILES
-    "/home/mathias/catkin_scara_ws/build/scara_ros/catkin_generated/installspace/scara_rosConfig.cmake"
-    "/home/mathias/catkin_scara_ws/build/scara_ros/catkin_generated/installspace/scara_rosConfig-version.cmake"
+    "/home/rabios/dev/scara_ros/build/scara_ros/catkin_generated/installspace/scara_rosConfig.cmake"
+    "/home/rabios/dev/scara_ros/build/scara_ros/catkin_generated/installspace/scara_rosConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scara_ros" TYPE FILE FILES "/home/mathias/catkin_scara_ws/src/scara_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scara_ros" TYPE FILE FILES "/home/rabios/dev/scara_ros/src/scara_ros/package.xml")
 endif()
 
