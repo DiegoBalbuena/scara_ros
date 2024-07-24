@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/diego/scara_ros/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/diego/scara_ros/build
+=======
+CMAKE_SOURCE_DIR = /home/rabios/dev/scara_ros/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/rabios/dev/scara_ros/build
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +144,15 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles /home/diego/scara_ros/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles /home/rabios/dev/scara_ros/build/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : all
 
 # The main clean target

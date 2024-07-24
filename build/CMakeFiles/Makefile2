@@ -44,10 +44,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/diego/scara_ros/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/diego/scara_ros/build
+=======
+CMAKE_SOURCE_DIR = /home/rabios/dev/scara_ros/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/rabios/dev/scara_ros/build
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -218,14 +225,24 @@ scara_ros/clean: scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cle
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target doxygen"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target doxygen"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -245,14 +262,24 @@ CMakeFiles/doxygen.dir/clean:
 CMakeFiles/run_tests.dir/all:
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target run_tests"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target run_tests"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -272,14 +299,24 @@ CMakeFiles/run_tests.dir/clean:
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target clean_test_results"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target clean_test_results"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -299,14 +336,24 @@ CMakeFiles/clean_test_results.dir/clean:
 CMakeFiles/tests.dir/all:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target tests"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target tests"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -326,14 +373,24 @@ CMakeFiles/tests.dir/clean:
 CMakeFiles/download_extra_data.dir/all:
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target download_extra_data"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target download_extra_data"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -350,18 +407,28 @@ CMakeFiles/download_extra_data.dir/clean:
 # Target rules for target gtest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
+gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -381,14 +448,24 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num=1,2 "Built target gmock"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num=1,2 "Built target gmock"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -408,14 +485,24 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num=7,8 "Built target gtest_main"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num=7,8 "Built target gtest_main"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -435,14 +522,24 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num=5,6 "Built target gtest"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num=5,6 "Built target gtest"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -489,14 +586,24 @@ moveit_robot_urdf_sim/CMakeFiles/_catkin_empty_exported_target.dir/clean:
 scara_ros/CMakeFiles/std_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build.make scara_ros/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build.make scara_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -516,14 +623,24 @@ scara_ros/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 scara_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make scara_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make scara_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -543,14 +660,24 @@ scara_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
 scara_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make scara_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make scara_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -570,14 +697,24 @@ scara_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
 scara_ros/CMakeFiles/roscpp_generate_messages_eus.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build.make scara_ros/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build.make scara_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/roscpp_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/roscpp_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -597,14 +734,24 @@ scara_ros/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -624,14 +771,24 @@ scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
 scara_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make scara_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make scara_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -651,14 +808,24 @@ scara_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 scara_ros/CMakeFiles/roscpp_generate_messages_py.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/roscpp_generate_messages_py.dir/build.make scara_ros/CMakeFiles/roscpp_generate_messages_py.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/roscpp_generate_messages_py.dir/build.make scara_ros/CMakeFiles/roscpp_generate_messages_py.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/roscpp_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -678,14 +845,24 @@ scara_ros/CMakeFiles/roscpp_generate_messages_py.dir/clean:
 scara_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make scara_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make scara_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -705,14 +882,24 @@ scara_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
 scara_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make scara_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make scara_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -732,14 +919,24 @@ scara_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -759,14 +956,24 @@ scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
 scara_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make scara_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make scara_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -786,14 +993,24 @@ scara_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -813,14 +1030,24 @@ scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -840,14 +1067,24 @@ scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 scara_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make scara_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make scara_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -867,14 +1104,24 @@ scara_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/diego/scara_ros/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rabios/dev/scara_ros/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : scara_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.

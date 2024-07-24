@@ -67,14 +67,23 @@ set(scara_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(scara_ros_SOURCE_PREFIX /home/diego/scara_ros/src/scara_ros)
   set(scara_ros_DEVEL_PREFIX /home/diego/scara_ros/devel)
+=======
+  set(scara_ros_SOURCE_PREFIX /home/rabios/dev/scara_ros/src/scara_ros)
+  set(scara_ros_DEVEL_PREFIX /home/rabios/dev/scara_ros/devel)
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
   set(scara_ros_INSTALL_PREFIX "")
   set(scara_ros_PREFIX ${scara_ros_DEVEL_PREFIX})
 else()
   set(scara_ros_SOURCE_PREFIX "")
   set(scara_ros_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(scara_ros_INSTALL_PREFIX /home/diego/scara_ros/install)
+=======
+  set(scara_ros_INSTALL_PREFIX /home/rabios/dev/scara_ros/install)
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
   set(scara_ros_PREFIX ${scara_ros_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +163,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/diego/scara_ros/install/lib;/home/diego/scara_ros/devel/lib;/opt/ros/noetic/lib)
+=======
+    foreach(path /home/rabios/dev/scara_ros/install/lib;/opt/ros/noetic/lib)
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

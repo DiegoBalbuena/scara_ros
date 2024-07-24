@@ -1,2 +1,6 @@
 - setup-file:
+<<<<<<< HEAD
     local-name: /home/diego/scara_ros/devel/setup.sh
+=======
+    local-name: /home/rabios/dev/scara_ros/devel/setup.sh
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208

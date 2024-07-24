@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 prefix=/home/diego/scara_ros/install
+=======
+prefix=/home/rabios/dev/scara_ros/install
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 
 Name: scara_ros
 Description: Description of scara_ros

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 /usr/bin/c++ -fPIC   -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/diego/scara_ros/build/gtest/lib ../lib/libgtest.so -lpthread 
+=======
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/rabios/dev/scara_ros/build/gtest/lib ../lib/libgtest.so -lpthread 
+>>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
