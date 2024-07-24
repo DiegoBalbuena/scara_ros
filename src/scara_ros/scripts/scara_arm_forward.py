@@ -35,7 +35,7 @@ def pose_callback(msg : Quaternion):
     pub_msg.y = y
     pub_msg.z = msg.z
     pub_msg.w = msg.w
-    rospy.logwarn( "theta1:" + str(x) + ", theta2:" + str(y) )
+    rospy.logwarn( "x:" + str(x) + ", y:" + str(y) )
     pub.publish(pub_msg)
     rospy.loginfo(f"Message published to topic {pubTopic}")
 

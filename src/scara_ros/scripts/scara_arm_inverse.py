@@ -19,17 +19,23 @@ def get_quadrant(x,y):
 # Functions to check joint limits
 # TODO : Change values according to
 def is_goodT1(theta1):
-    return np.abs(theta1) < 162
+    return (theta1<=150 and theta1>=-180)
 def is_goodT2(theta2):
-    return np.abs(theta2) < 172
+    return (theta2<=155 and theta2>=-155)
 def is_goodPhi(phi):
-    return np.abs(phi) < 166
+    return (phi<=97 and phi>=-190)
 def is_goodZ(z):
-    return (z<=100 and z>0)
+    return (z<=125 and z>=0)
+# TODO Check if value changed before publishing
 
 # Callback Function that deals with message from node subscription
 def pose_callback(msg : Quaternion):
     rospy.loginfo(f"Message received from '{subTopic}' to node '{nodeName}'")
+    # Wait until there is at least one subscriber connected
+    while pub.get_num_connections() < 1:
+        rospy.logwarn("Waiting for connection...")
+        pass
+    rospy.loginfo("Subscriber connected!")
     x = msg.x
     y = msg.y
     z = msg.z
@@ -68,9 +74,9 @@ def pose_callback(msg : Quaternion):
     pub_msg.y = theta2
     pub_msg.z = msg.z
     pub_msg.w = msg.w
-    rospy.logwarn( "theta1:" + str(theta1) + ", theta2:" + str(theta2) )
+    #rospy.logwarn( "theta1:" + str(theta1) + ", theta2:" + str(theta2) )
     pub.publish(pub_msg)
-    rospy.loginfo(f"Message published to topic {pubTopic}")
+    #rospy.loginfo(f"Message published to topic {pubTopic}")
 
 
 if __name__ == '__main__':
@@ -79,7 +85,8 @@ if __name__ == '__main__':
     subTopic = "/desired_end_effector_pos"
     rospy.init_node(nodeName)
     
-    pub = rospy.Publisher(pubTopic, Quaternion, queue_size=10)
+    
+    pub = rospy.Publisher(pubTopic, Quaternion, queue_size=1)
     sub = rospy.Subscriber(subTopic, Quaternion, callback=pose_callback)
     rospy.loginfo("Inverse Kinematics node has been started")
     rospy.spin()
