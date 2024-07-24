@@ -1,2 +1,2 @@
-scara_ros
--DCATKIN_DEVEL_PREFIX=/home/mathias/catkin_scara_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mathias/catkin_scara_ws/install -G Unix Makefiles
+moveit_robot_urdf_sim:robot_urdf:scara_ros
+-DCATKIN_DEVEL_PREFIX=/home/diego/scara_ros/devel -DCMAKE_INSTALL_PREFIX=/home/diego/scara_ros/install -G Unix Makefiles

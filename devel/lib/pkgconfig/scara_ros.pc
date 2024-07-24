@@ -1,4 +1,4 @@
-prefix=/home/mathias/catkin_scara_ws/devel
+prefix=/home/diego/scara_ros/devel
 
 Name: scara_ros
 Description: Description of scara_ros

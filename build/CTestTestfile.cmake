@@ -1,8 +1,10 @@
 # CMake generated Testfile for 
-# Source directory: /home/mathias/catkin_scara_ws/src
-# Build directory: /home/mathias/catkin_scara_ws/build
+# Source directory: /home/diego/scara_ros/src
+# Build directory: /home/diego/scara_ros/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("moveit_robot_urdf_sim")
 subdirs("scara_ros")
+subdirs("robot_urdf")
