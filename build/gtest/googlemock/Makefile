@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/diego/scara_ros/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diego/scara_ros/build
-=======
 CMAKE_SOURCE_DIR = /home/rabios/dev/scara_ros/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rabios/dev/scara_ros/build
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles /home/diego/scara_ros/build/gtest/googlemock/CMakeFiles/progress.marks
-	cd /home/diego/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
-=======
 	cd /home/rabios/dev/scara_ros/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles /home/rabios/dev/scara_ros/build/gtest/googlemock/CMakeFiles/progress.marks
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/clean
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/clean
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/preinstall
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/preinstall
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/preinstall
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/preinstall
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
 	cd /home/rabios/dev/scara_ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : depend
 
 # Convenience name for target.
 gtest/googlemock/CMakeFiles/gmock_main.dir/rule:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/rule
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/rule
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ gmock_main: gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # fast build rule for target.
 gmock_main/fast:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gmock_main/fast
 
 # Convenience name for target.
 gtest/googlemock/CMakeFiles/gmock.dir/rule:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/rule
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/rule
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -235,11 +194,7 @@ gmock: gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # fast build rule for target.
 gmock/fast:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : gmock/fast
 
 src/gmock-all.o: src/gmock-all.cc.o
@@ -248,11 +203,7 @@ src/gmock-all.o: src/gmock-all.cc.o
 
 # target to build an object file
 src/gmock-all.cc.o:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : src/gmock-all.cc.o
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -261,11 +212,7 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -274,11 +221,7 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.o: src/gmock_main.cc.o
@@ -287,11 +230,7 @@ src/gmock_main.o: src/gmock_main.cc.o
 
 # target to build an object file
 src/gmock_main.cc.o:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : src/gmock_main.cc.o
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -300,11 +239,7 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -313,11 +248,7 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -352,10 +283,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
 	cd /home/rabios/dev/scara_ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : cmake_check_build_system
 

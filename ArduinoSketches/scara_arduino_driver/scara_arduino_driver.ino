@@ -31,7 +31,7 @@ MultiStepper steppers;
 
 // Constantes
 const int defaultVel = 900;
-const int defaultAcel = 25;
+const int defaultAcel = 250;
 const float toStep[4] = {
   43.13933379,    // Constante de conversion del theta1; valor teorico -> 44.444444
   36.72147283,    // Constante de conversion del theta2; valor teorico ->  35.555555

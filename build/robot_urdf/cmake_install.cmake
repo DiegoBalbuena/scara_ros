@@ -1,8 +1,8 @@
-# Install script for directory: /home/diego/scara_ros/src/robot_urdf
+# Install script for directory: /home/rabios/dev/scara_ros/src/robot_urdf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/diego/scara_ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/rabios/dev/scara_ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/diego/scara_ros/build/robot_urdf/catkin_generated/installspace/robot_urdf.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rabios/dev/scara_ros/build/robot_urdf/catkin_generated/installspace/robot_urdf.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_urdf/cmake" TYPE FILE FILES
-    "/home/diego/scara_ros/build/robot_urdf/catkin_generated/installspace/robot_urdfConfig.cmake"
-    "/home/diego/scara_ros/build/robot_urdf/catkin_generated/installspace/robot_urdfConfig-version.cmake"
+    "/home/rabios/dev/scara_ros/build/robot_urdf/catkin_generated/installspace/robot_urdfConfig.cmake"
+    "/home/rabios/dev/scara_ros/build/robot_urdf/catkin_generated/installspace/robot_urdfConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_urdf" TYPE FILE FILES "/home/diego/scara_ros/src/robot_urdf/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_urdf" TYPE FILE FILES "/home/rabios/dev/scara_ros/src/robot_urdf/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_urdf/config" TYPE DIRECTORY FILES "/home/diego/scara_ros/src/robot_urdf/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_urdf/config" TYPE DIRECTORY FILES "/home/rabios/dev/scara_ros/src/robot_urdf/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_urdf/launch" TYPE DIRECTORY FILES "/home/diego/scara_ros/src/robot_urdf/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_urdf/launch" TYPE DIRECTORY FILES "/home/rabios/dev/scara_ros/src/robot_urdf/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_urdf/meshes" TYPE DIRECTORY FILES "/home/diego/scara_ros/src/robot_urdf/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_urdf/meshes" TYPE DIRECTORY FILES "/home/rabios/dev/scara_ros/src/robot_urdf/meshes/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_urdf/urdf" TYPE DIRECTORY FILES "/home/diego/scara_ros/src/robot_urdf/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_urdf/urdf" TYPE DIRECTORY FILES "/home/rabios/dev/scara_ros/src/robot_urdf/urdf/")
 endif()
 

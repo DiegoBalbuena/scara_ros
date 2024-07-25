@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/diego/scara_ros/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diego/scara_ros/build
-=======
 CMAKE_SOURCE_DIR = /home/rabios/dev/scara_ros/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rabios/dev/scara_ros/build
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 
 # Utility rule file for tests.
 
@@ -74,10 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diego/scara_ros/src /home/diego/scara_ros/src /home/diego/scara_ros/build /home/diego/scara_ros/build /home/diego/scara_ros/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
-=======
 	cd /home/rabios/dev/scara_ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rabios/dev/scara_ros/src /home/rabios/dev/scara_ros/src /home/rabios/dev/scara_ros/build /home/rabios/dev/scara_ros/build /home/rabios/dev/scara_ros/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : CMakeFiles/tests.dir/depend
 

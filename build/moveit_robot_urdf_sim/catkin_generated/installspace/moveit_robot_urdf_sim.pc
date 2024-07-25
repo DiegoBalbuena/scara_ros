@@ -1,4 +1,4 @@
-prefix=/home/diego/scara_ros/install
+prefix=/home/rabios/dev/scara_ros/install
 
 Name: moveit_robot_urdf_sim
 Description: Description of moveit_robot_urdf_sim

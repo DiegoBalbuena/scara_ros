@@ -1,8 +1,8 @@
-# Install script for directory: /home/diego/scara_ros/src/moveit_robot_urdf_sim
+# Install script for directory: /home/rabios/dev/scara_ros/src/moveit_robot_urdf_sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/diego/scara_ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/rabios/dev/scara_ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/diego/scara_ros/build/moveit_robot_urdf_sim/catkin_generated/installspace/moveit_robot_urdf_sim.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rabios/dev/scara_ros/build/moveit_robot_urdf_sim/catkin_generated/installspace/moveit_robot_urdf_sim.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_robot_urdf_sim/cmake" TYPE FILE FILES
-    "/home/diego/scara_ros/build/moveit_robot_urdf_sim/catkin_generated/installspace/moveit_robot_urdf_simConfig.cmake"
-    "/home/diego/scara_ros/build/moveit_robot_urdf_sim/catkin_generated/installspace/moveit_robot_urdf_simConfig-version.cmake"
+    "/home/rabios/dev/scara_ros/build/moveit_robot_urdf_sim/catkin_generated/installspace/moveit_robot_urdf_simConfig.cmake"
+    "/home/rabios/dev/scara_ros/build/moveit_robot_urdf_sim/catkin_generated/installspace/moveit_robot_urdf_simConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_robot_urdf_sim" TYPE FILE FILES "/home/diego/scara_ros/src/moveit_robot_urdf_sim/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_robot_urdf_sim" TYPE FILE FILES "/home/rabios/dev/scara_ros/src/moveit_robot_urdf_sim/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_robot_urdf_sim" TYPE DIRECTORY FILES "/home/diego/scara_ros/src/moveit_robot_urdf_sim/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_robot_urdf_sim" TYPE DIRECTORY FILES "/home/rabios/dev/scara_ros/src/moveit_robot_urdf_sim/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_robot_urdf_sim" TYPE DIRECTORY FILES "/home/diego/scara_ros/src/moveit_robot_urdf_sim/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_robot_urdf_sim" TYPE DIRECTORY FILES "/home/rabios/dev/scara_ros/src/moveit_robot_urdf_sim/config")
 endif()
 

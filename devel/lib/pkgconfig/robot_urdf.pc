@@ -1,4 +1,4 @@
-prefix=/home/diego/scara_ros/devel
+prefix=/home/rabios/dev/scara_ros/devel
 
 Name: robot_urdf
 Description: Description of robot_urdf

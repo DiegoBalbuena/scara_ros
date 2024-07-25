@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/diego/scara_ros/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diego/scara_ros/build
-=======
 CMAKE_SOURCE_DIR = /home/rabios/dev/scara_ros/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rabios/dev/scara_ros/build
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles /home/diego/scara_ros/build/gtest/CMakeFiles/progress.marks
-	cd /home/diego/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/diego/scara_ros/build/CMakeFiles 0
-=======
 	cd /home/rabios/dev/scara_ros/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles /home/rabios/dev/scara_ros/build/gtest/CMakeFiles/progress.marks
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rabios/dev/scara_ros/build/CMakeFiles 0
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : clean
 
 # The main clean target
@@ -171,29 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
-=======
 	cd /home/rabios/dev/scara_ros/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
 	cd /home/rabios/dev/scara_ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : depend
 
 # Help Target
@@ -220,10 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/diego/scara_ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
 	cd /home/rabios/dev/scara_ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 .PHONY : cmake_check_build_system
 

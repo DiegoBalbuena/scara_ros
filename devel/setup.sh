@@ -11,11 +11,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-<<<<<<< HEAD
-: ${_CATKIN_SETUP_DIR:=/home/diego/scara_ros/devel}
-=======
 : ${_CATKIN_SETUP_DIR:=/home/rabios/dev/scara_ros/devel}
->>>>>>> a939d1951b49873009e624302dcc1bd2adec4208
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

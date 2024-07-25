@@ -10,7 +10,7 @@ if __name__ == "__main__":
         pub = rospy.Publisher("/desired_end_effector_pos", Quaternion, queue_size=10)
         rospy.loginfo("Message published to topic /desired_end_effector_pos")
         flag = False
-    msg = Quaternion(-100, -100, 62.5, 90) 
+    msg = Quaternion(100, -100, 125, 0) 
     rate = rospy.Rate(1)
     while not rospy.is_shutdown():
         pub.publish(msg)
