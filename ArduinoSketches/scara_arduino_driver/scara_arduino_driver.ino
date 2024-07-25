@@ -3,16 +3,18 @@
 //ROS
 #include <ros.h>
 #include <geometry_msgs/Quaternion.h>
+#include <sensor_msgs/JointState.h> // to read /join_state
 
 #define limitSwitch1 9    // Define el pin del interruptor del límite theta1
 #define limitSwitch2 10   // Define el pin del interruptor del límite theta2
 #define limitSwitch4 11   // Define el pin del interruptor del límite z
 #define limitSwitch3 A3   // Define el pin del interruptor del límite phi
-
+// TODO: add servo for gripper control ../servo_test.ino
 // Init functions
 void homing();
 float unitToStep(int, float);
 void homeMotor(int);
+inline float RadiansToDegrees(float position_radians);
 
 // Variables
 long stepper1Position;
@@ -30,8 +32,9 @@ MultiStepper steppers;
 
 
 // Constantes
-const int defaultVel = 900;
-const int defaultAcel = 250;
+const int defaultVel = 500;
+const int defaultAcel = 125;
+const int defaultAcelH = 500;
 const float toStep[4] = {
   43.13933379,    // Constante de conversion del theta1; valor teorico -> 44.444444
   36.72147283,    // Constante de conversion del theta2; valor teorico ->  35.555555
@@ -44,13 +47,13 @@ ros::NodeHandle nh; // Node handler
 geometry_msgs::Quaternion outputMessage;
 ros::Publisher pub("/joint_pos", &outputMessage);
 
-void callbackFcn(const geometry_msgs::Quaternion &inputMessage){
+void callbackFcn(const sensor_msgs::JointState& cmd_msg){
   // Extraer los valores de theta1, theta2, phi, z del comando
-  float theta1 = inputMessage.x;
-  float theta2 = inputMessage.y;
-  float phi = inputMessage.w;
-  float z = inputMessage.z;
-  
+  float theta1 = RadiansToDegrees(cmd_msg.position[0]);
+  float z = cmd_msg.position[1] * 1000;
+  float theta2 = RadiansToDegrees(cmd_msg.position[2]);
+  float phi = RadiansToDegrees(cmd_msg.position[3]);
+  float gripper = RadiansToDegrees(cmd_msg.position[4]);
   //Move to position
   // Unit to Steps conversion
   float stepperPosition[4] = {
@@ -66,20 +69,19 @@ void callbackFcn(const geometry_msgs::Quaternion &inputMessage){
   positions[3] = stepper3Position;
   steppers.moveTo(positions);
   steppers.runSpeedToPosition();
-  nh.logwarn("In position!");
 
   // Publish current position data to joint_pos
-  outputMessage.x = stepper[0].currentPosition() / toStep[0];
-  outputMessage.y = stepper[1].currentPosition() / toStep[1];
-  outputMessage.z = stepper[3].currentPosition() / toStep[3];
-  outputMessage.w = stepper[2].currentPosition() / toStep[2];
-  pub.publish(&outputMessage);
+  // outputMessage.x = stepper[0].currentPosition() / toStep[0];
+  // outputMessage.y = stepper[1].currentPosition() / toStep[1];
+  // outputMessage.z = stepper[3].currentPosition() / toStep[3];
+  // outputMessage.w = stepper[2].currentPosition() / toStep[2];
+  // pub.publish(&outputMessage);
 
 }
 
-ros::Subscriber<geometry_msgs::Quaternion> sub("/desired_joint_pos", &callbackFcn);
+ros::Subscriber<sensor_msgs::JointState> sub("/joint_states", &callbackFcn);
 void setup() {
-  Serial.begin(57600);
+  nh.getHardware()->setBaud(115200);
   //* ROS *
   nh.initNode(); // TODO opt: Change node name
   nh.advertise(pub);
@@ -147,9 +149,9 @@ void homeMotor(int motor){
     default: break;
   }
 
-  while (!digitalRead(limit) == 0) {
-    if(digitalRead(limit)==0){break;}
-    stepper[motor].setAcceleration(defaultAcel);
+  while (!digitalRead(limit) != 0) {
+    if(digitalRead(limit)!=0){break;}
+    stepper[motor].setAcceleration(defaultAcelH);
     stepper[motor].setSpeed(speed);
     stepper[motor].runSpeed();
     stepper[motor].setCurrentPosition(unit);
@@ -162,8 +164,9 @@ void homeMotor(int motor){
   delay(20);
 }
 
-
-
+inline float RadiansToDegrees(float position_radians){
+  return position_radians * 57.2958;
+}
 
 
 
